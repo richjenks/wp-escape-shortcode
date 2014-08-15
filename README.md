@@ -1,4 +1,4 @@
-# Escape Shortcode
+# Escape Shortcodes
 
 Escape shortcodes so they're displayed exactly as shown while editing.
 
