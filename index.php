@@ -12,4 +12,9 @@
 
 namespace RichJenks\WPEscapeShortcode;
 
-add_shortcode( 'esc', function( $atts, $content = null ) { return htmlentities($content); } );
+add_shortcode( 'sc', function( $atts, $content = null ) {
+	$escaped = htmlentities( $content );
+	$escaped = str_replace( '[', "&#91;", $escaped );
+	$escaped = str_replace( ']', "&#93;", $escaped );
+	return $escaped;
+} );
