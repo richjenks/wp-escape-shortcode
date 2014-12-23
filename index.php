@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: Escape Shortcodes
- * Plugin URI: https://richjenks.com/dev/wp/escape-shortcodes/
+ * Plugin URI: https://github.com/richjenks/wp-escape-shortcodes/
  * Description: Escape shortcodes and other content so it's displayed exactly as shown while editing
  * Version: 1.0
  * Author: Rich Jenks <rich@richjenks.com>
